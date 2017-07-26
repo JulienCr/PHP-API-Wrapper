@@ -1,5 +1,5 @@
 {
-  "name": "timothyrowan/bcapi",
+  "name": "juliencr/bcapi",
   "description": "Brightcove PHP API Wrapper",
   "keywords": ["timothyrowan","bcapi"],
   "type": "library",
@@ -20,7 +20,11 @@
     {
       "name": "timothyrowan",
       "homepage": "https://github.com/timothyrowan"
-    }
+    },
+    {
+      "name": "juliencr",
+      "homepage": "https://github.com/juliencr"
+    },
   ],
   "require-dev": {
     "phpunit/phpunit": "4.5.*"
