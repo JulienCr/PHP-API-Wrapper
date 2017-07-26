@@ -24,6 +24,26 @@ class CMS extends API
     }
 
     /**
+     * @param  $video_id
+     * @param  $rendition_id
+     * @return mixed
+     */
+    public function deleteRendition($video_id, $rendition_id)
+    {
+        return $this->cmsRequest('DELETE', "/videos/{$video_id}/assets/renditions/{$rendition_id}", null);
+    }
+
+    /**
+     * @param  $video_id
+     * @return mixed
+     */
+    public function deleteDigitalMaster($video_id)
+    {
+        return $this->cmsRequest('DELETE', "/videos/{$video_id}/digital_master", null);
+    }
+
+
+    /**
      * @param  $folder_id
      * @param  $video_id
      * @return mixed
