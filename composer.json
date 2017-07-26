@@ -20,6 +20,10 @@
     {
       "name": "timothyrowan",
       "homepage": "https://github.com/timothyrowan"
+    },
+    {
+      "name": "juliencr",
+      "homepage": "https://github.com/juliencr"
     }
   ],
   "require-dev": {
