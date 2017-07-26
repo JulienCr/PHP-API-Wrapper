@@ -1,5 +1,5 @@
 {
-  "name": "juliencr/bcapi",
+  "name": "brightcove/api",
   "description": "Brightcove PHP API Wrapper",
   "keywords": ["timothyrowan","bcapi"],
   "type": "library",
